@@ -4,7 +4,3 @@ spring:
     name: qcmservice
   config:
     import: "optional:configserver:https://qcm-configserver.onrender.com/"
-
-
-
-
