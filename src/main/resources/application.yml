@@ -1,8 +1,7 @@
-
 spring:
   application:
     name: qcmservice
-  config:
-    import: "configserver:http://host.docker.internal:8888"
-
+  cloud:
+    config:
+      uri: http://host.docker.internal:8888
 
