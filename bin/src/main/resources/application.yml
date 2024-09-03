@@ -3,7 +3,6 @@ spring:
   application:
     name: qcmservice
   config:
-    import: "optional:http://host.docker.internal:8888:http://host.docker.internal:8888"
-
+    import: "optional:configserver:http://localhost:8888/"
 
 
