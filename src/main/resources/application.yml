@@ -3,4 +3,4 @@ spring:
   application:
     name: qcmservice
   config:
-    location: http://host.docker.internal:8888/
+    import: "optional:configserver:http://localhost:8888/"
