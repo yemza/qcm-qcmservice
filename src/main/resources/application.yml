@@ -1,8 +1,6 @@
 spring:
   application:
     name: qcmservice
-  cloud:
-    config:
-      uri: https://qcm-configserver.onrender.com/
-  profiles:
-    active: default
+  config:
+#    import: "optional:configserver:http://localhost:8888/"
+    import: "optional:configserver:https://qcm-configserver.onrender.com/"
