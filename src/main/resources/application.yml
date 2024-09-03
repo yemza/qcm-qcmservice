@@ -2,6 +2,4 @@ spring:
   application:
     name: qcmservice
   cloud:
-    config:
-      uri: "https://qcm-configserver.onrender.com/"
-      fail-fast: true
+    import: "configserver:https://qcm-configserver.onrender.com/"
