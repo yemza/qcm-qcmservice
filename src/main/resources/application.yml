@@ -3,3 +3,7 @@ spring:
     name: qcmservice
   config:
     import: "optional:configserver:https://qcm-configserver.onrender.com/qcmservice/default"
+  datasource:
+    url: jdbc:mysql://localhost:3306/qcm
+    username: root
+    password: root
