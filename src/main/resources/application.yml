@@ -7,3 +7,8 @@ spring:
     url: jdbc:mysql://localhost:3306/qcm
     username: root
     password: root
+  jpa:
+    properties:
+      hibernate:
+        boot:
+          allow_jdbc_metadata_access: false
