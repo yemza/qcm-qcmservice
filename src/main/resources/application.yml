@@ -2,4 +2,4 @@ spring:
   application:
     name: qcmservice
   config:
-    import: "optional:configserver:https://qcm-configserver.onrender.com/"
+    import: "optional:configserver:https://qcm-configserver.onrender.com/qcmservice/default"
