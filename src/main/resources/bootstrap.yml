@@ -3,4 +3,4 @@ spring:
     name: qcmservice
   cloud:
     config:
-      uri: https://qcm-configserver.onrender.com/
+      uri: https://qcm-configserver.onrender.com/qcmservice/default
